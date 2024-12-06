@@ -46,7 +46,7 @@ Um aplicativo web robusto para monitoramento e busca de arquivos em diretórios 
 2. Instale as dependências:
    
 
-   > ```bash
+> ```bash
 > npm install
 > ```
 
@@ -115,7 +115,7 @@ ou
 
 ## 📄 Licença
 
-Este projeto está sob a licença [INSERIR LICENÇA].
+Este projeto está sob a licença MIT.
 
 ## 🤝 Contribuição
 
