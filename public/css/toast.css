@@ -1,0 +1,97 @@
+#toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: white;
+    transform: translateX(120%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.toast.show {
+    transform: translateX(0);
+}
+
+.toast-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.toast-content i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.toast-message {
+    flex: 1;
+}
+
+.toast-close {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.toast-close:hover {
+    opacity: 1;
+}
+
+/* Tipos de toast */
+.toast-success {
+    border-left: 4px solid #28a745;
+}
+.toast-success i:first-child {
+    color: #28a745;
+}
+
+.toast-error {
+    border-left: 4px solid #dc3545;
+}
+.toast-error i:first-child {
+    color: #dc3545;
+}
+
+.toast-warning {
+    border-left: 4px solid #ffc107;
+}
+.toast-warning i:first-child {
+    color: #ffc107;
+}
+
+.toast-info {
+    border-left: 4px solid #17a2b8;
+}
+.toast-info i:first-child {
+    color: #17a2b8;
+}
+
+/* Tema escuro */
+[data-theme="dark"] .toast {
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .toast-close {
+    color: #ffffff;
+}
+
+/* Estilos para o modal de downloads */
+#downloadsList {
+    max-height: 300px; 
+    overflow-y: auto; 
+} 

@@ -1,0 +1,17 @@
+{
+  "searchPaths": [
+    "\\\\192.168.1.123\\Publica\\NEOCORP",
+    "\\\\192.168.1.123\\Publica\\neocontabil\\Versoes_Neocontabil\\Liberada"
+  ],
+  "filters": [
+    "Web",
+    "Corp"
+  ],
+  "filterType": "contains",
+  "extensions": [
+    ".exe",
+    ".ear"
+  ],
+  "sortBy": "creationDate",
+  "sortOrder": "asc"
+}
